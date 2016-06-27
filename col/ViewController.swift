@@ -72,7 +72,15 @@ class ViewController: UIViewController {
         
     }
     @IBAction func ActBtn0(sender: AnyObject) {
-        shuru ("0")
+        //shuru ("0")
+        if(b_state==false)
+        {
+            x.text="0"
+        }
+        else
+        {
+            x.text=x.text!+"0"
+        }
     }
     @IBAction func dain(sender: AnyObject) {
         if(b_state==false)
