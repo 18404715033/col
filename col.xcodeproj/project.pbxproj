@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					18533AC61D1B02AD00BED309 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B8C4Q3X4GB;
 					};
 					18533ADA1D1B02AD00BED309 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -401,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = col/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = baozi.col;
@@ -412,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = col/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = baozi.col;
@@ -484,6 +487,7 @@
 				18533AF11D1B02AD00BED309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18533AF21D1B02AD00BED309 /* Build configuration list for PBXNativeTarget "colTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +496,7 @@
 				18533AF41D1B02AD00BED309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18533AF51D1B02AD00BED309 /* Build configuration list for PBXNativeTarget "colUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +505,7 @@
 				18533AF71D1B02AD00BED309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
